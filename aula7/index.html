@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
     
     <title>Formatação de coluna</title>
     <style>
@@ -20,13 +21,14 @@
 </head>
 <body>
     <div class="container">
-        <div class="row aling-items-center">
-            <div class="col-3">Coluna 1</div>
+        <div class="row justify-content-evenly">
+            <div class="col-3 order-last">Coluna 1</div>
+            
             <div class="col-3">Coluna 2</div>
             <div class="col-3">Coluna 3</div>
         </div>
     </div>
 
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
